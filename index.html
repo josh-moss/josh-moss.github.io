@@ -1,1 +1,115 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
 
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Galaxy Systems</h1>
+            <div class="cart">
+                <span class="cart-icon">🛒</span>
+                <span class="cart-count">0</span>
+            </div>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main>
+
+            <section>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search...">
+                    <input type="submit" value="Search">
+                </div>
+            </section>
+
+            <div class="nav">
+                <a href="javascript:void(0)" onclick="toggleHidden();">Toggle Hidden</a>
+              </div>
+              
+              <!-- Swiper parent container -->
+              <div id="swiper-parent-id" class="swiper-parent active">
+                  <!-- Slider main container -->
+                  <div class="swiper-container">
+                      <!-- Additional required wrapper -->
+                      <div class="swiper-wrapper">
+                          <!-- Slides -->
+                          <div class="swiper-slide">
+                              <img src='https://cdn.pixabay.com/photo/2019/08/19/07/45/pets-4415649_960_720.jpg' class="slide-image"/>
+                          </div>
+                          <div class="swiper-slide">
+                              <img src='https://cdn.pixabay.com/photo/2019/07/02/08/10/sunny-4311828_960_720.jpg' class="slide-image"/>
+                          </div>
+                          <div class="swiper-slide">
+                              <img src='https://cdn.pixabay.com/photo/2019/08/25/16/57/purple-4429887_960_720.jpg' class="slide-image"/>
+                          </div>
+                          <div class="swiper-slide">
+                              <img src='https://cdn.pixabay.com/photo/2019/02/15/11/04/book-3998252_960_720.jpg' class="slide-image"/>
+                          </div>
+                          <div class="swiper-slide">
+                              <img src='https://cdn.pixabay.com/photo/2019/08/24/18/12/parasol-4428078_960_720.jpg' class="slide-image"/>
+                          </div>
+                          <div class="swiper-slide">
+                              <img src='https://cdn.pixabay.com/photo/2019/08/25/13/36/grapes-4429520_960_720.jpg' class="slide-image"/>
+                          </div>
+                          <div class="swiper-slide">
+                              <img src='https://cdn.pixabay.com/photo/2019/08/28/12/58/nature-4436704_960_720.jpg' class="slide-image"/>
+                          </div>
+                          <div class="swiper-slide">
+                              <img src='https://cdn.pixabay.com/photo/2019/08/24/13/36/banteng-4427640_960_720.jpg' class="slide-image"/>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+            <section>
+                <h2>About Us</h2>
+                <p>Lorem ipsum.</p>
+            </section>
+
+            <section>
+                <h2>Services</h2>
+                <ul>
+                    <li>Service 1</li>
+                    <li>Service 2</li>
+                    <li>Service 3</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Contact Us</h2>
+                <p>Email: info@galaxysystems.com</p>
+                <p>Phone: 123-456-7890</p>
+            </section>
+
+        </main>
+
+        <footer>
+            <p>&copy; 2023 Galaxy Systems. All rights reserved.</p>
+        </footer>
+
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="script.js" async defer></script>
+</body>
+
+</html>
